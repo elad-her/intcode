@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9eff1; /* צבע רקע רגוע */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #4a90e2; /* צבע רגוע */
+    text-align: center;
+    margin-bottom: 20px;
+    border: solid black 2px;
+    border-radius: 50px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4a90e2; /* קו תוחם */
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #4a90e2; /* צבע לכפתור */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background: #357ab8; /* צבע כהה יותר בעת hover */
+}
