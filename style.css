@@ -1,60 +1,56 @@
 * {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e9eff1; /* צבע רקע רגוע */
-    color: #333;
-    margin: 0;
-    padding: 20px;
+    background-color: rgb(240, 240, 240);
 }
 
 h1 {
-    color: #4a90e2; /* צבע רגוע */
-    text-align: center;
-    margin-bottom: 20px;
-    border: solid black 2px;
-    border-radius: 50px;
+    color: #313131;
+    border-bottom: solid rebeccapurple;
+    width: 50%;
+    text-shadow: 0px 4px 5px #919191;
 }
 
 h2 {
-    color: #333;
-    border-bottom: 2px solid #4a90e2; /* קו תוחם */
-    padding-bottom: 5px;
+    color: darkslategrey;
+    border-bottom: solid rebeccapurple;
+    width: 50%;
 }
 
 p {
-    margin: 10px 0;
+    color: rgb(37, 0, 44);
+    font-weight: 600;
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-li {
-    margin: 5px 0;
+    list-style: square;
+    font-weight: 600;
 }
 
 img {
-    max-width: 100%;
     border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    border: solid;
+    border-color: rgb(171, 143, 188);
 }
 
 a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #4a90e2; /* צבע לכפתור */
-    color: white;
+    border: solid rgb(31, 0, 50);
     border-radius: 5px;
+    
+    color: black;
     text-decoration: none;
-    transition: background 0.3s;
+    padding: 5px;
 }
 
 a:hover {
-    background: #357ab8; /* צבע כהה יותר בעת hover */
+    border: solid rgb(31, 0, 50);
+    border-radius: 5px;
+    background-color: #313131;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px; 
 }
